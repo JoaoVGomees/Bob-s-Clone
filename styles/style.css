@@ -75,6 +75,9 @@ footer {
     padding-bottom: 50px;
     margin-top: auto;
     background-color: var(--medium-grey);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .footer-top {
