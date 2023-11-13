@@ -37,8 +37,6 @@ header nav ul li:hover {
 main {
     padding: 20px 0 40px 0;
     width: 100%;
-    background-color: var(--light-grey);
-    flex: 1;
 }
 
 main h1 {
@@ -76,7 +74,7 @@ footer {
     margin-top: auto;
     background-color: var(--medium-grey);
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
 }
 
