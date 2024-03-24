@@ -1,5 +1,6 @@
 @media screen and (max-width: 768px) {
     header {
+        padding-top: 15px;
         height: auto;
         flex-direction: column;
         align-items: center;
@@ -11,9 +12,7 @@
     }
 
     header nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
+        display: none;
     }
 
     main h1 {
@@ -39,4 +38,17 @@
         align-items: center;
     }
 
+    .footer-bottom-left {
+        display: none;
+    }
+
+    .footer-bottom-center {
+        display: none;
+    }
+
+    .footer-bottom-right div {
+        display: flex;
+        justify-content: center;
+        gap: 4px;
+    }
 }
